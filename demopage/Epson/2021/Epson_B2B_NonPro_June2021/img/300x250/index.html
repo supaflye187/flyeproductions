@@ -43,7 +43,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	exportRoot = new lib.Epson_B2B_NonPro_300x250();
+	exportRoot = new lib.Epson_B2B_NonPro_300x250_v02();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
@@ -68,7 +68,7 @@ function getParameterByName (name) {
 	decodeURIComponent(results[1].replace(/\+/g, " "));
 }
 	// var clickTag = getParameterByName("clickTag");
-	var clickTag = "https://google.com";
+	var clickTag = "https://Epson.com/EcoTank";
 </script>
 </head>
 <body onload="init();" style="margin:0px;">
