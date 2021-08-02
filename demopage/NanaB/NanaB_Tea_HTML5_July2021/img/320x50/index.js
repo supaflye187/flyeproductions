@@ -37,6 +37,12 @@ p.nominalBounds = new cjs.Rectangle(0,0,320,50);
 p.nominalBounds = new cjs.Rectangle(0,0,243,591);
 
 
+(lib.newFlag = function() {
+	this.initialize(img.newFlag);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,72,104);
+
+
 (lib.peach = function() {
 	this.initialize(img.peach);
 }).prototype = p = new cjs.Bitmap();
@@ -687,31 +693,15 @@ if (reversed == null) { reversed = false; }
 	props.reversed = reversed;
 	cjs.MovieClip.apply(this,[props]);
 
-	// NEW
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#FFFFFF").s().p("AAYA2IgYhKIAAAAIgXBKIgUAAIgghrIAaAAIARBEIAAAAIAXhEIAVAAIAWBGIAAAAIAShGIAYAAIgfBrg");
-	this.shape.setTransform(-38.475,28.025);
+	// Layer_2
+	this.instance = new lib.newFlag();
+	this.instance.setTransform(-84.85,-20.9,0.6922,0.6922);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AglA2IAAhrIBIAAIAAAWIgwAAIAAAUIAtAAIAAAVIgtAAIAAAWIAzAAIAAAWg");
-	this.shape_1.setTransform(-50.625,28.025);
-
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("#FFFFFF").s().p("AAUA2IguhMIAAAAIAABMIgYAAIAAhrIAgAAIAtBKIAAAAIAAhKIAYAAIAABrg");
-	this.shape_2.setTransform(-61.775,28.025);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	// Layer_3
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("#1A91CF").s().p("Al9F+QieieAAjgQAAjfCeieQCeieDfAAQDgAACeCeQCeCeAADfQAADgieCeQieCejgAAQjfAAieieg");
-	this.shape_3.setTransform(-49.5,4.5,0.7222,0.7222);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_3).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.new_TAB, new cjs.Rectangle(-88.5,-34.5,78,78), null);
+}).prototype = getMCSymbolPrototype(lib.new_TAB, new cjs.Rectangle(-88.5,-34.5,78,85.6), null);
 
 
 (lib.lemon_mc = function(mode,startPosition,loop,reversed) {
@@ -892,7 +882,7 @@ if (reversed == null) { reversed = false; }
 
 	// new_TAB
 	this.instance_10 = new lib.new_TAB();
-	this.instance_10.setTransform(82.9,-38.95,0.8276,0.8276);
+	this.instance_10.setTransform(82.9,-42.45,0.8276,0.8276);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({scaleX:1,scaleY:1,x:90.85,y:-11.95},7,cjs.Ease.quadOut).wait(289));
 
@@ -916,6 +906,7 @@ lib.properties = {
 	manifest: [
 		{src:"BG.jpg", id:"BG"},
 		{src:"lemonTea.jpg", id:"lemonTea"},
+		{src:"newFlag.png", id:"newFlag"},
 		{src:"peach.jpg", id:"peach"},
 		{src:"raspberry.jpg", id:"raspberry"},
 		{src:"sweetTea.jpg", id:"sweetTea"}
