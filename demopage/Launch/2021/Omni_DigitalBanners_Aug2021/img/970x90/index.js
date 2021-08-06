@@ -660,7 +660,7 @@ if (reversed == null) { reversed = false; }
 
 	// cta_BG
 	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.f().s("#000000").ss(1,0,0,3).p("AnahwIO1AAIAADhIu1AAg");
+	this.shape_13.graphics.f().s("#000000").ss(0.5,0,0,3).p("AnahwIO1AAIAADhIu1AAg");
 	this.shape_13.setTransform(18.325,-143.325);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape_13).wait(1));
@@ -1455,13 +1455,13 @@ if (reversed == null) { reversed = false; }
 
 	// omni_logo_group
 	this.instance_1 = new lib.omni_logo_group();
-	this.instance_1.setTransform(150,247.05);
+	this.instance_1.setTransform(706.8,45.25,1.0028,1.0028,0,0,0,576.2,-202);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(359));
 
 	// ctaBtn
 	this.instance_2 = new lib.ctaBtn();
-	this.instance_2.setTransform(866.8,188.6);
+	this.instance_2.setTransform(882.7,45.6,1.4124,1.4124,0,0,0,18.6,-143.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(359));
 

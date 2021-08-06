@@ -588,33 +588,6 @@ if (reversed == null) { reversed = false; }
 }).prototype = getMCSymbolPrototype(lib.gradient_wipe, new cjs.Rectangle(-434.8,-83.9,698.8,162.5), null);
 
 
-(lib.cta_BG = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#000000").ss(1,0,0,3).p("AnchwIO5AAIAADhIu5AAg");
-	this.shape.setTransform(0.025,0.025);
-
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AncBxIAAjhIO5AAIAADhg");
-	this.shape_1.setTransform(0.025,0.025);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.cta_BG, new cjs.Rectangle(-48.7,-12.2,97.5,24.5), null);
-
-
 (lib.colorBar_02_anim = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -1326,13 +1299,19 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	// cta_BG
-	this.instance_1 = new lib.cta_BG();
+	this.shape_12 = new cjs.Shape();
+	this.shape_12.graphics.f().s("#000000").ss(0.5,0,0,3).p("AnchwIO5AAIAADhIu5AAg");
+	this.shape_12.setTransform(0.025,0.025);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1));
+	this.shape_13 = new cjs.Shape();
+	this.shape_13.graphics.f("#FFFFFF").s().p("AncBxIAAjhIO5AAIAADhg");
+	this.shape_13.setTransform(0.025,0.025);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_13},{t:this.shape_12}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.ctaBtn, new cjs.Rectangle(-48.2,-11.7,96.5,23.5), null);
+}).prototype = getMCSymbolPrototype(lib.ctaBtn, new cjs.Rectangle(-48.7,-12.2,97.5,24.5), null);
 
 
 // stage content:
@@ -1365,19 +1344,19 @@ if (reversed == null) { reversed = false; }
 
 	// colorBar_01_anim
 	this.instance = new lib.colorBar_01_anim("synched",0);
-	this.instance.setTransform(476.4,347.1,1,1,0,0,0,476.7,347.1);
+	this.instance.setTransform(474.7,347.1,1,1,0,0,0,476.7,347.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).to({x:464,startPosition:275},358).wait(1));
 
 	// colorBar_02_anim
 	this.instance_1 = new lib.colorBar_02_anim("synched",0);
-	this.instance_1.setTransform(-108.35,411,1,1,0,0,0,-107.6,411);
+	this.instance_1.setTransform(-104.95,411,1,1,0,0,0,-107.6,411);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({x:-96.65,startPosition:275},358).wait(1));
 
 	// ctaBtn
 	this.instance_2 = new lib.ctaBtn();
-	this.instance_2.setTransform(150.05,473.45);
+	this.instance_2.setTransform(150.05,471.45,1.4825,1.4825);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(359));
 
@@ -1481,11 +1460,11 @@ if (reversed == null) { reversed = false; }
 
 	// txt_museum
 	this.instance_8 = new lib.txt_SeptNine();
-	this.instance_8.setTransform(119.4,295.3);
+	this.instance_8.setTransform(116,295.3);
 	this.instance_8.alpha = 0;
 	this.instance_8._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(258).to({_off:false},0).to({x:92.3,alpha:1},50,cjs.Ease.quadOut).wait(51));
+	this.timeline.addTween(cjs.Tween.get(this.instance_8).wait(255).to({_off:false},0).to({x:92.3,alpha:1},60,cjs.Ease.quadOut).wait(44));
 
 	// txt_CanAHotel
 	this.instance_9 = new lib.txt_opening();
@@ -1503,11 +1482,11 @@ if (reversed == null) { reversed = false; }
 
 	// txt_museum
 	this.instance_11 = new lib.txt_itCan();
-	this.instance_11.setTransform(127.8,295.3);
+	this.instance_11.setTransform(117.6,295.3);
 	this.instance_11.alpha = 0;
 	this.instance_11._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(135).to({_off:false},0).to({x:98,alpha:1},49,cjs.Ease.quadOut).to({_off:true},72).wait(103));
+	this.timeline.addTween(cjs.Tween.get(this.instance_11).wait(129).to({_off:false},0).to({x:98,alpha:1},54,cjs.Ease.quadOut).to({_off:true},73).wait(103));
 
 	// txt_CanAHotel
 	this.instance_12 = new lib.txt_Inspired();
@@ -1524,7 +1503,7 @@ if (reversed == null) { reversed = false; }
 
 	// txt_museum
 	this.instance_14 = new lib.txt_museum();
-	this.instance_14.setTransform(138.25,295.3);
+	this.instance_14.setTransform(134.85,295.3);
 	this.instance_14.alpha = 0;
 	this.instance_14._off = true;
 
@@ -1556,9 +1535,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"image_01.jpg?1628192973746", id:"image_01"},
-		{src:"image_02.jpg?1628192973746", id:"image_02"},
-		{src:"image_03.jpg?1628192973746", id:"image_03"}
+		{src:"image_01.jpg", id:"image_01"},
+		{src:"image_02.jpg", id:"image_02"},
+		{src:"image_03.jpg", id:"image_03"}
 	],
 	preloads: []
 };
