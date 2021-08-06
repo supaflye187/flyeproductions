@@ -40,7 +40,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,191,71);
 (lib.inkBottles = function() {
 	this.initialize(img.inkBottles);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,208,168);
+p.nominalBounds = new cjs.Rectangle(0,0,266,204);
 
 
 (lib.paintColors = function() {
@@ -52,7 +52,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,567,250);
 (lib.printer = function() {
 	this.initialize(img.printer);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,230,154);
+p.nominalBounds = new cjs.Rectangle(0,0,302,209);
 
 
 (lib.shaq_01 = function() {
@@ -849,7 +849,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.printer();
-	this.instance.setTransform(-284.05,-32.95);
+	this.instance.setTransform(-276.75,-28.55,0.7004,0.7004);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -861,7 +861,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.printer_02, new cjs.Rectangle(-282.6,-31.5,209.90000000000003,146.1), null);
+}).prototype = getMCSymbolPrototype(lib.printer_02, new cjs.Rectangle(-276.7,-28.5,204,143.1), null);
 
 
 (lib.printer_01 = function(mode,startPosition,loop,reversed) {
@@ -877,13 +877,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.printer();
-	this.instance.setTransform(-104,-73.45);
+	this.instance.setTransform(-104.1,-73,0.69,0.69);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.printer_01, new cjs.Rectangle(-104,-73.4,230,154), null);
+}).prototype = getMCSymbolPrototype(lib.printer_01, new cjs.Rectangle(-104.1,-73,208.39999999999998,144.2), null);
 
 
 (lib.panel = function(mode,startPosition,loop,reversed) {
@@ -956,13 +956,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.inkBottles();
-	this.instance.setTransform(-86.95,-54.9,0.8317,0.8317);
+	this.instance.setTransform(-91.45,-50.1,0.6484,0.6484);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.inkBottles_mc, new cjs.Rectangle(-86.9,-54.9,173,139.8), null);
+}).prototype = getMCSymbolPrototype(lib.inkBottles_mc, new cjs.Rectangle(-91.4,-50.1,172.5,132.3), null);
 
 
 (lib.exitBtn = function(mode,startPosition,loop,reversed) {
