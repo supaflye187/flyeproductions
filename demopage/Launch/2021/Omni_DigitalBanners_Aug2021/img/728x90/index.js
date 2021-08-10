@@ -1490,7 +1490,7 @@ if (reversed == null) { reversed = false; }
 
 	// txt_CanAHotel
 	this.instance_6 = new lib.txt_opening();
-	this.instance_6.setTransform(84.05,266.2);
+	this.instance_6.setTransform(104.05,266.2);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(250).to({_off:false},0).wait(109));

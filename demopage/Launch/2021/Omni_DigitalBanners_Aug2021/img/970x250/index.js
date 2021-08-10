@@ -1501,7 +1501,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_10 = new lib.gradient_wipe();
 	this.instance_10.setTransform(228.6,32.45,1,2.1231,26.2387,0,0,-85.4,-2.6);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({x:834.5,y:370.25},38).to({_off:true},1).wait(60).to({_off:false,rotation:-153.7613,x:-65.75,y:-88.5},0).to({x:296.15,y:186.75},29).to({_off:true},1).wait(230));
+	this.timeline.addTween(cjs.Tween.get(this.instance_10).to({x:834.5,y:370.25},38).to({_off:true},1).wait(55).to({_off:false,rotation:-153.7613,x:-65.75,y:-88.5},0).to({x:566.15,y:206.75},31).to({_off:true},1).wait(233));
 
 	// txt_museum
 	this.instance_11 = new lib.txt_museum();
