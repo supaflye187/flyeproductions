@@ -514,7 +514,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.BSWH_Logo, new cjs.Rectangle(1081.2,-818.2,474.29999999999995,234.5), null);
+}).prototype = getMCSymbolPrototype(lib.BSWH_Logo, new cjs.Rectangle(1081.2,-818.2,474.29999999999995,234.4000000000001), null);
 
 
 (lib.cta_btn = function(mode,startPosition,loop,reversed) {
@@ -1173,9 +1173,9 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"Bitmap1.png?1628789915107", id:"Bitmap1"},
-		{src:"image_01.jpg?1628789915107", id:"image_01"},
-		{src:"image_02.jpg?1628789915107", id:"image_02"}
+		{src:"Bitmap1.png", id:"Bitmap1"},
+		{src:"image_01.jpg", id:"image_01"},
+		{src:"image_02.jpg", id:"image_02"}
 	],
 	preloads: []
 };

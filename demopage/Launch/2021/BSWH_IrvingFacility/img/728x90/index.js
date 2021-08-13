@@ -40,7 +40,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,456,149);
 (lib.image_02 = function() {
 	this.initialize(img.image_02);
 }).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,472,120);// helper functions:
+p.nominalBounds = new cjs.Rectangle(0,0,728,180);// helper functions:
 
 function mc_symbol_clone() {
 	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
@@ -248,7 +248,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.image_02_1, new cjs.Rectangle(-250,-292,472,120), null);
+}).prototype = getMCSymbolPrototype(lib.image_02_1, new cjs.Rectangle(-250,-292,728,180), null);
 
 
 (lib.image_01_1 = function(mode,startPosition,loop,reversed) {
@@ -791,10 +791,10 @@ if (reversed == null) { reversed = false; }
 
 	// image_02_jpg
 	this.instance_5 = new lib.image_02_1();
-	this.instance_5.setTransform(313.85,44.6,0.95,0.95,0,0,0,-12.1,-233.3);
+	this.instance_5.setTransform(337.35,56.25,0.95,0.95,0,0,0,86.2,-191.7);
 	this.instance_5._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(112).to({_off:false},0).to({regY:-233.4,scaleX:1,scaleY:1,x:313.9,y:44.5},120,cjs.Ease.quadOut).wait(32));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(112).to({_off:false},0).to({regX:86.1,regY:-191.8,scaleX:1,scaleY:1,y:56.2},120,cjs.Ease.quadOut).wait(32));
 
 	// white_fade
 	this.shape_52 = new cjs.Shape();
