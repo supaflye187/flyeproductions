@@ -44,8 +44,7 @@ function handleComplete(evt,comp) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
 	exportRoot = new lib.Epson_B2B_NonPro_160x600();
-	stage = new lib.Stage(canvas);
-	stage.enableMouseOver();	
+	stage = new lib.Stage(canvas);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
 		stage.addChild(exportRoot);
@@ -72,7 +71,7 @@ function getParameterByName (name) {
 </script>
 </head>
 <body onload="init();" style="margin:0px;">
-	<!-- <a href="javascript:window.open(window.clickTag);"><canvas id="canvas" width="160" height="600"></canvas></a> -->
+	<a href="javascript:window.open(window.clickTag);"><canvas id="canvas" width="160" height="600"></canvas></a>
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:160px; height:600px">
 		<canvas id="canvas" width="160" height="600" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
 		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:160px; height:600px; position: absolute; left: 0px; top: 0px; display: block;">
