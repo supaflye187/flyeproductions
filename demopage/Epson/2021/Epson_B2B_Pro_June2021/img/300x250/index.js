@@ -1685,7 +1685,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.instance_6 = new lib.Shaq_02();
-	this.instance_6.setTransform(-115,137.05);
+	this.instance_6.setTransform(-115,147.05);
 	this.instance_6._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(317).to({_off:false},0).to({x:112},13,cjs.Ease.quadOut).wait(5));

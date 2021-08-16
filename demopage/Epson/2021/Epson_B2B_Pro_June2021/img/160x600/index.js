@@ -1616,15 +1616,15 @@ if (reversed == null) { reversed = false; }
 
 	// epson_logo
 	this.instance_3 = new lib.epson_logo();
-	this.instance_3.setTransform(28.5,18.65,0.319,0.319,0,0,0,0.1,0.1);
+	this.instance_3.setTransform(35.4,24,0.4287,0.4287,0,0,0,0.1,0.2);
 	this.instance_3.alpha = 0;
 	this.instance_3._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(88).to({_off:false},0).to({alpha:1},8).wait(30).to({alpha:0},7).to({_off:true},1).wait(172).to({_off:false,scaleX:0.5174,scaleY:0.5174,x:43.55,y:22.8},0).to({alpha:1},10).wait(39));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(88).to({_off:false},0).to({alpha:1},8).wait(30).to({alpha:0},7).to({_off:true},1).wait(172).to({_off:false,regY:0.1,scaleX:0.5174,scaleY:0.5174,x:43.55,y:22.8},0).to({alpha:1},10).wait(39));
 
 	// ecoTank_logo
 	this.instance_4 = new lib.ecoTank_logo_1();
-	this.instance_4.setTransform(76.65,10.85,0.1497,0.1497,0,0,0,125.2,20.7);
+	this.instance_4.setTransform(90.4,13.55,0.1774,0.1774,0,0,0,125.5,20.9);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
@@ -2049,10 +2049,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"ecoTank_logo.png", id:"ecoTank_logo"},
-		{src:"inkBottles.jpg", id:"inkBottles"},
-		{src:"paintColors.jpg", id:"paintColors"},
-		{src:"printer_01.jpg", id:"printer_01"}
+		{src:"ecoTank_logo.png?1629132871491", id:"ecoTank_logo"},
+		{src:"inkBottles.jpg?1629132871491", id:"inkBottles"},
+		{src:"paintColors.jpg?1629132871491", id:"paintColors"},
+		{src:"printer_01.jpg?1629132871491", id:"printer_01"}
 	],
 	preloads: []
 };
