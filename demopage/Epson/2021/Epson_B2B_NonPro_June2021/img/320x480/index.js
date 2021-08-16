@@ -1219,7 +1219,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_85
 	this.instance_4 = new lib.printer_02();
-	this.instance_4.setTransform(57,419.75,0.7344,0.7344,0,0,0,-139.3,74.9);
+	this.instance_4.setTransform(57,416.25,0.7344,0.7344,0,0,0,-139.3,74.9);
 	this.instance_4.alpha = 0;
 	this.instance_4._off = true;
 
@@ -1227,7 +1227,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_108
 	this.instance_5 = new lib.shaq_02_1();
-	this.instance_5.setTransform(247.05,124.05);
+	this.instance_5.setTransform(247.05,124.55);
 	this.instance_5.alpha = 0;
 	this.instance_5._off = true;
 
